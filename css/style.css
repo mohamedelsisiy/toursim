@@ -356,13 +356,15 @@ a{
     }
     #div-des #text-des{
         width: 100%;
+        order: 2;
     }
  
 
     #img-des,#img-des-go{
         order: 1;
         width:100%;
-      
+        height: 300px;
+        clip-path:stroke-box;
         border-radius: 50px;
         
     }
